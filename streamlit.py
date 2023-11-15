@@ -1,11 +1,8 @@
 import streamlit as st
 from streamlit_drawable_canvas import st_canvas
-import matplotlib.pyplot as plt
 import numpy as np
-from PIL import Image, ImageOps, ImageChops
+from PIL import Image
 import torch
-import cv2
-import pandas as pd
 from torchvision import transforms
 
 from model import Model
